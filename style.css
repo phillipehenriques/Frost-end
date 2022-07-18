@@ -1,5 +1,5 @@
 body {
-  background-image: url("imagens/back.png") ;
+  background-image: url("imagens/backk.png") ;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -63,7 +63,17 @@ body {
 }
 
 .footer {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.753);
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px #35556e91;
+  font-style: italic;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
 }
 
 nav {
@@ -126,6 +136,7 @@ nav {
   
   .wrapper{
     position: fixed;
+    margin: ;
     top: 0;
     /*left: -100%;*/
     right: -100%;
@@ -209,11 +220,11 @@ nav {
     width: 20%;
     transform: translate(-50%, -50%);
     list-style: none;
-    text-align: center;
+    text-align: start;
   }
   .wrapper ul li{
     height: 10%;
-    margin: 15px 0;
+    margin: 0px 0;
   }
   .wrapper ul li a{
     text-decoration: none;
@@ -231,6 +242,7 @@ nav {
   }
 
   .li-center {
+    margin: auto;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -297,4 +309,3 @@ nav {
 
 
  /*********************** nav bar *********************/  
-
